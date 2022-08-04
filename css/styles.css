@@ -1,19 +1,27 @@
 body {
-  background-color: #002b5b;
+  text-align: center;
+  font-family: "Open Sans";
+}
+
+.container-fluid {
+  padding: 7% 10%;
 }
 
 /* TITLE */
 #title {
   color: #8fe3cf;
-  text-align: left;
-  font-family: "Open Sans";
+  text-align: center;
+
   font-size: 1.5rem;
   line-height: 1.5;
+  background-color: #002b5b;
 }
+/* #title .container-fluid {
+  padding-bottom: 6%;
+} */
 
 /* NavBar */
 .navbar-brand {
-  padding-left: 2%;
   font-family: "Square Peg";
   font-size: 4rem;
 }
@@ -28,4 +36,19 @@ body {
   height: 200px;
   width: 200px;
   border-radius: 100%;
+}
+
+/* Education */
+#education {
+  background-color: #8fe3cf;
+  color: #002b5b;
+}
+
+.education-img {
+  width: 30%;
+}
+
+.edu-textbox {
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
