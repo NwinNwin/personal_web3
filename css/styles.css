@@ -42,13 +42,17 @@ body {
 #education {
   background-color: #8fe3cf;
   color: #002b5b;
+  text-align: center;
 }
 
-.education-img {
-  width: 30%;
+.edu-img {
+  width: 15%;
+}
+
+.carousel-item {
+  padding: 7% 1%;
 }
 
 .edu-textbox {
-  padding-top: 50px;
-  padding-bottom: 30px;
+  padding-top: 3%;
 }
