@@ -1,0 +1,31 @@
+body {
+  background-color: #002b5b;
+}
+
+/* TITLE */
+#title {
+  color: #8fe3cf;
+  text-align: left;
+  font-family: "Open Sans";
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+/* NavBar */
+.navbar-brand {
+  padding-left: 2%;
+  font-family: "Square Peg";
+  font-size: 4rem;
+}
+
+.nav-item {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+/* Description */
+.pfp {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
