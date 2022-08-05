@@ -7,6 +7,13 @@ body {
   padding: 7% 10%;
 }
 
+.divider {
+  height: 2rem;
+  background-color: #2b4865;
+  border-width: 1px 0;
+  box-shadow: 1px 2px 10px rgb(27, 27, 27) inset;
+}
+
 /* TITLE */
 #title {
   color: #8fe3cf;
@@ -40,7 +47,7 @@ body {
 
 /* Education */
 #education {
-  background-color: #8fe3cf;
+  background-color: #89d8c5;
   color: #002b5b;
   text-align: center;
 }
@@ -55,4 +62,10 @@ body {
 
 .edu-textbox {
   padding-top: 3%;
+}
+
+/* Skills */
+#skills {
+  background-color: #002b5b;
+  color: #8fe3cf;
 }
