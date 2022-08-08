@@ -15,7 +15,10 @@ body {
 }
 
 .big-heading {
-  padding-top: 7%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  font-family: "Fredoka One";
+  font-size: 3rem;
 }
 /* TITLE */
 #title {
@@ -59,11 +62,16 @@ body {
   width: 15%;
 }
 
-.carousel-item {
-  padding: 7% 1%;
+.edu-textbox {
+  padding-top: 3%;
 }
 
-.edu-textbox {
+#education h2 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#education .container-fluid {
   padding-top: 3%;
 }
 
@@ -73,6 +81,13 @@ body {
   color: #8fe3cf;
 }
 
+.skills-col {
+  padding-top: 3%;
+}
+
+#skills .container-fluid {
+  padding: 4% 20%;
+}
 /* Projects */
 #projects {
   background-color: #256d85;
@@ -101,4 +116,25 @@ body {
 
 .projects-container {
   padding: 2% 15%;
+}
+
+/* Contact */
+#contact {
+  background-color: #002b5b;
+  color: #8fe3cf;
+}
+
+.contact-container {
+  padding: 3% 15%;
+  padding-bottom: 5%;
+}
+
+#contact a {
+  margin-right: 2%;
+  margin-left: 2%;
+  color: #8fe3cf;
+}
+
+#contact a:hover {
+  color: #256d85;
 }
