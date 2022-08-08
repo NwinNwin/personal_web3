@@ -78,3 +78,27 @@ body {
   background-color: #256d85;
   color: #8fe3cf;
 }
+
+.projects-img {
+  border-top-left-radius: 15%;
+  border-top-right-radius: 15%;
+}
+
+.projects-card {
+  border-radius: 15%;
+  margin: 2% 2%;
+}
+
+@media (max-width: 1000px) {
+  #projects .container-fluid {
+    padding: 10% 25%;
+  }
+}
+
+#projects .btn {
+  margin: 3% 3%;
+}
+
+.projects-container {
+  padding: 2% 15%;
+}
