@@ -3,6 +3,9 @@ body {
   font-family: "Open Sans";
 }
 
+p {
+  font-family: "Itim";
+}
 .container-fluid {
   padding: 7% 10%;
 }
@@ -18,7 +21,7 @@ body {
   padding-top: 5%;
   padding-bottom: 2%;
   font-family: "Fredoka One";
-  font-size: 3rem;
+  font-size: 4rem;
 }
 /* TITLE */
 #title {
@@ -73,6 +76,11 @@ body {
 
 #education .container-fluid {
   padding-top: 3%;
+}
+
+.edu-font {
+  font-family: "Inter";
+  font-weight: 600;
 }
 
 /* Skills */
